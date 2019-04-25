@@ -116,7 +116,7 @@ class InputMask extends EditorBase {
     let saltText = '';
     let count = 0;
 
-    this.isCorrectFormat = text === undefined || text == null || text.length > 0; 
+    this.isCorrectFormat = text === undefined || text == null || text.length > 0;
 
     if (text) {
       for (let i = 0; i < mask.length; i++) {
